@@ -246,4 +246,88 @@ justify-content: space-around;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+.loginPage-container {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, rgb(73, 73, 155), rgb(184, 123, 123));
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-container {
+  padding: 40px;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: small;
+  gap: 2rem;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.forgot :hover {
+  cursor: pointer;
+}
+.signup-container {
+  padding: 40px;
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: small;
+  gap: 2rem;
+}
+
+.pic_container {
+  margin-top: 8px;
+  height: 170px;
+  width: 170px;
+  object-fit: cover;
+  margin-left: 30px;
+}
+
+.equipment-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
+.equipment_container {
+  width: 240px;
+  height: 350px;
+  box-shadow: 5px 10px 18px #888888;
+  text-align: center;
+  align-items: center;
+}
+.rate_container {
+  margin-left: 12px;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 10px;
+}
+
+.spec {
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  color: dimgrey;
+  align-items: center;
+}
+.duration {
+  margin-left: "auto";
+}
+.products-page{
+  width:80%;
+  
 }
